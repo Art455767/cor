@@ -5,6 +5,7 @@ data class Comment<Author>(
     val authorId: Long,
     var author: Author? = null,
     val content: String,
+
     val published: Long,
     val likedByMe: Boolean,
     val likes: Int = 0,
